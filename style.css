@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+::selection{
+    background: #000000;
+    color: #ffff;
+}
+.selection-design{
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+select{
+    width: 400px;
+    height: 30px;
+    color: #ffa600;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+select option:nth-child(odd){
+    background: #202a57;
+    color: #ffff;
+    font-size: 20px;
+}
+
